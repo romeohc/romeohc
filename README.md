@@ -4,9 +4,9 @@
 
 🎯 Looking to be the first engineer of an AI startup in Paris.
 
-## ⭐ [Workflow](https://github.com/romeohc/Workflow): my way of working, open source
+## ⭐ [afkit](https://github.com/romeohc/afkit): my way of working, open source
 
-This is how I ship code. Cloud coding agents build it, test it themselves on the running app in real conditions, prove it works, then check production after the deploy. I'm turning it into **Workflow**, a free plugin anyone can install on any app.
+This is how I ship code. Cloud coding agents build it, test it themselves on the running app in real conditions, prove it works, then check production after the deploy. I'm turning it into **afkit**, a free plugin anyone can install on any app.
 
 ```mermaid
 flowchart TB
@@ -30,7 +30,7 @@ flowchart TB
 
 Every skill follows the same rules: **keep it simple, question everything, delete what's useless, prove it works.**
 
-👉 **[See how it works](https://github.com/romeohc/Workflow)**
+👉 **[See how it works](https://github.com/romeohc/afkit)**
 
 ## What I've built
 
