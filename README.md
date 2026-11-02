@@ -1,16 +1,12 @@
-# Hi, I'm Roméo 👋
+# Roméo HC
 
-**AI Product Engineer** · I design and ship complete products on my own, with a team of AI agents.
+**AI Product Engineer.** I design and ship complete products on my own. I run my work like a startup with a full team, except the team is AI agents: every role a company needs has its own agent, working day and night. I stay the decision-maker.
 
-🎯 **Goal:** build a great tech product as the first engineer of an AI startup in Paris.
+🎯 Looking to be the first engineer of an AI startup in Paris.
 
----
+## ⭐ [Workflow](https://github.com/romeohc/Workflow): my way of working, open source
 
-## How I work
-
-I run my work like a startup with a full team, except the team is AI agents. Every role a company needs has its own agent, working on its own, day and night.
-
-For development, coding agents in the cloud build each change, then test it themselves on the running app, in real conditions, and prove it works before anything ships. I stay the decision-maker.
+This is how I ship code. Cloud coding agents build it, test it themselves on the running app in real conditions, prove it works, then check production after the deploy. I'm turning it into **Workflow**, a free plugin anyone can install on any app.
 
 ```mermaid
 flowchart TB
@@ -32,13 +28,9 @@ flowchart TB
     style SHIP fill:none,stroke:none
 ```
 
-Every agent follows the same rules: **keep it simple, question everything, delete what's useless, prove it works.**
+Every skill follows the same rules: **keep it simple, question everything, delete what's useless, prove it works.**
 
-## [Workflow](https://github.com/romeohc/Workflow): my way of working, free and open source
-
-I'm turning this system into a plugin that anyone can install on any app, in one command. Same agents, same rules, same proof, for free.
-
----
+👉 **[See how it works](https://github.com/romeohc/Workflow)**
 
 ## What I've built
 
@@ -56,7 +48,5 @@ I'm turning this system into a plugin that anyone can install on any app, in one
 - **Backend & data:** Convex · Node.js · Better Auth · Stripe
 - **AI:** Cursor (cloud agents) · Grok Bot
 - **Infra & quality:** Vercel · Fly.io · GitHub Actions · Vitest
-
----
 
 [LinkedIn](https://www.linkedin.com/in/romeo-hc/) · [X](https://x.com/romeohc_)
