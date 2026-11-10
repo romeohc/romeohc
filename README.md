@@ -4,21 +4,21 @@
 
 🎯 Looking to be the first engineer of an AI startup in Paris.
 
-## ⭐ [afkit](https://github.com/romeohc/afkit): my way of working, open source
+## ⭐ [afkit](https://github.com/romeohc/afkit): the product chain, open source
 
-This is how I ship code. Cloud coding agents build it, test it themselves on the running app in real conditions, prove it works, then check production after the deploy. I'm turning it into **afkit**, a free plugin anyone can install on any app.
+A free, open-source Cursor plugin I built for my own use, the product layer of a larger system (foundations, product, company). It automates the chain from a clear coding request to verified production: the agent thinks, codes, tests on the running app and proves it with screenshots and video, the change gets merged, a path-filtered deploy ships it, and radar, a Cursor automation, checks production after each merge.
 
 ```mermaid
 flowchart TB
     subgraph BUILD ["1 · Build and prove"]
         direction LR
-        IN["Bug, request or idea<br/>from my AI agents or me"] -->|"/think"| AG["Cloud coding agent<br/>1 feature = 1 branch = 1 PR"]
-        AG -->|"/hard"| PR["Tests itself on the running app<br/>proof: screenshots or video"]
+        IN["Clear coding request"] -->|"/think"| AG["Cloud coding agent<br/>1 feature = 1 branch = 1 PR"]
+        AG -->|"/hard"| PR["Tests itself on the running app<br/>proof: screenshots and video"]
     end
     subgraph SHIP ["2 · Ship and watch"]
         direction LR
-        M["Review and merge<br/>into main"] --> D["Smart auto-deploy<br/>only what changed"]
-        D --> R["/radar<br/>deploys · CI · logs · live URL"]
+        M["Review and merge<br/>into main"] --> D["Path-filtered deploy<br/>only what changed"]
+        D --> R["radar<br/>deploys · CI · logs · live URL"]
         R -->|"all green"| OK["✅ Done"]
         R -->|"failure"| F["/debug<br/>fix and redeploy"]
         F --> D
