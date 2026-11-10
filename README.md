@@ -1,4 +1,4 @@
-# Roméo HC
+# Romeo HC
 
 AI Product Engineer. I design, build and sell complete products on my own, with AI agents doing most of the work.
 
