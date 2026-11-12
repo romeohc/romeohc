@@ -1,7 +1,10 @@
-# Romeo HC
+# Roméo HC
 
 Building in stealth.
 
-Built [Novex](https://novex.trading), a macro and fundamental data terminal for traders: 2,000+ accounts, peaked at €2,100 MRR.
-
-[romeohc.com](https://romeohc.com) · [LinkedIn](https://www.linkedin.com/in/romeo-hc/) · [X](https://x.com/romeohc_)
+<a href="https://romeohc.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-romeohc.com-ffffff?style=for-the-badge">
+    <img alt="romeohc.com" src="https://img.shields.io/badge/-romeohc.com-000000?style=for-the-badge">
+  </picture>
+</a>
