@@ -1,4 +1,4 @@
-# Roméo HC
+# Romeo HC
 
 Building in stealth.
 
